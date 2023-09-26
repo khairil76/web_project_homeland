@@ -1,0 +1,12 @@
+.page {
+  width: 1280px;
+  background-color: #2a2c2f;
+  margin: 0 auto;
+  font-family: "inter";
+}
+
+h1,
+h2,
+p {
+  color: #fff;
+}
