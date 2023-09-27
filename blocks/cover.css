@@ -32,7 +32,6 @@
   margin-right: auto;
   margin-left: auto;
   z-index: 10;
-  text-align: center;
 }
 .cover__subtitle-container {
   width: 280px;
@@ -59,11 +58,10 @@
   background: #0278fe;
   padding: 13px 20px;
   font-size: 18px;
-}
-.cover__beli-tiket {
   color: #fff;
   text-decoration: none;
 }
+
 .cover__image {
   position: absolute;
   width: 100%;
