@@ -3,7 +3,7 @@
   margin: 92px auto 0;
 }
 
-.places__two-columns {
+.two-column {
   display: grid;
   grid-template:
     "title artist-author"
@@ -90,7 +90,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .places__two-columns {
+  .two-column {
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 28px;
   }
@@ -109,7 +109,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .places__two-columns {
+  .two-column {
     display: block;
     margin-bottom: 40px;
   }
