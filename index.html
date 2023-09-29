@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <title>Dari Tanah Air ke Tanah Air</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body>
-    <div class="page">
-      <header>
-        <div class="header">
-          <img
-            src="./images/logo-images/__logo.png"
-            alt="gambar logo practicum"
-            class="logo"
-          />
-        </div>
-      </header>
-
+    <header class="header">
+      <img
+        src="./images/logo-images/__logo.png"
+        alt="gambar logo practicum"
+        class="header__logo"
+      />
+    </header>
+    <main>
       <!-- awal blok lead -->
       <section class="lead">
-        <div class="lead__container">
-          <h1 class="lead__title">Dari Tanah Air ke Tanah Air</h1>
-          <p class="lead__subtitle">
-            Perjalanan epik dari Kentucky ke Burundi melalui Wales dan Ukraina
-          </p>
-          <img
-            src="./images/__image1.png"
-            alt="gambar kalegin-michail-1798"
-            class="lead__image"
-          />
-        </div>
+        <h1 class="lead__title">Dari Tanah Air ke Tanah Air</h1>
+        <p class="lead__subtitle">
+          Perjalanan epik dari Kentucky ke Burundi melalui Wales dan Ukraina
+        </p>
+        <img
+          src="./images/__image1.png"
+          alt="gambar kalegin-michail-1798"
+          class="lead__image"
+        />
       </section>
 
       <!-- awal blok intro -->
       <section class="intro">
-        <h1 class="intro__title">
+        <h2 class="intro__title">
           Mengetahui sedikit lebih baik tempat asal teman online Anda
-        </h1>
+        </h2>
         <p class="intro__paragraph">
           Setiap manusia adalah seniman, makhluk yang bebas, dipanggil untuk
           berpartisipasi dalam mengubah dan membentuk kembali kondisi,
@@ -61,63 +55,61 @@
       <section class="photo-grid">
         <img
           src="./images/grid-photos/__item1.png"
-          alt="photo-item1"
+          alt="pemukiman tepi danau"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/__item2.png"
-          alt="photo-item2"
+          alt="hamparan rumah di tepi pantai"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/__item3.png"
-          alt="photo-item3"
+          alt="gedung gereja"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/__item4.png"
-          alt="photo-item4"
+          alt="jembatan penghubung kota"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/-item5.png"
-          alt="photo-item5"
+          alt="padang rumput"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/item6.png"
-          alt="photo-item6"
+          alt="taman gedung"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/item7.png"
-          alt="photo-item7"
+          alt="rumah adat"
           class="photo-grid__item"
         />
         <img
           src="./images/grid-photos/item8.png"
-          alt="photo-item8"
+          alt="rumah di bukit gunung"
           class="photo-grid__item"
         />
       </section>
 
       <!-- places -->
       <section class="places">
-        <div class="two-column">
-          <h2 class="two-column__title">Kyiv, Ukraine</h2>
-          <div class="two-column__artist-author">
-            <p class="two-column__artist">Artist</p>
-            <p class="two-column__author">
-              Natalia Dolgushina, produser konten
-            </p>
+        <div class="card">
+          <h2 class="card__title">Kyiv, Ukraine</h2>
+          <div class="card__artist-author">
+            <p class="card__artist">Artist</p>
+            <p class="card__author">Natalia Dolgushina, produser konten</p>
           </div>
           <img
             src="./images/__ukraine.png"
             alt="kyiv, ukraine"
-            class="two-column__image"
+            class="card__image"
           />
-          <div class="two-column__information">
-            <p class="two-column__description two-column__description-ukraine">
+          <div class="card__information">
+            <p class="card__description">
               Kyiv (atau Kiev), ibu kota Ukraina, adalah kota besar yang
               terletak di tepi sungai Dnipro. Tentu saja, tidak ada orang waras
               yang akan berenang di sungai, kecuali mereka dibesarkan di sini,
@@ -125,7 +117,7 @@
               sini panas, dan musim dinginnya berangin, tetapi musim gugur dan
               musim semi benar-benar menakjubkan.
             </p>
-            <p class="two-column__description two-column__description-ukraine">
+            <p class="card__description">
               Kota itu sendiri merupakan campuran arsitektur prarevolusi,
               pascaperang, dan soviet, semuanya ditaburi dengan balkon yang
               dimodifikasi. Jika Anda berada di tepi kanan sungai Dnipro,
@@ -147,22 +139,20 @@
         </div>
 
         <!-- awal blok wales -->
-        <div class="two-column">
-          <h2 class="two-column__title">Criccieth, Wales</h2>
-          <div
-            class="two-column__artist-author two-column__artist-author_wales"
-          >
-            <p class="two-column__artist two-column__artist-wales">Artist</p>
-            <p class="two-column__author">Steffan Warren, editor utama</p>
-            <p class="two-column__author">Kseniya Glagoleva, manajer proyek</p>
+        <div class="card">
+          <h2 class="card__title">Criccieth, Wales</h2>
+          <div class="card__artist-author">
+            <p class="card__artist">Artist</p>
+            <p class="card__author">Steffan Warren, editor utama</p>
+            <p class="card__author">Kseniya Glagoleva, manajer proyek</p>
           </div>
           <img
             src="./images/__wales.png"
             alt="Criccieth, Wales"
-            class="two-column__image"
+            class="card__image"
           />
-          <div class="two-column__information">
-            <p class="two-column__description">
+          <div class="card__information">
+            <p class="card__description">
               Reruntuhan abad pertengahan Kastel Criccieth menghadap ke kota di
               bawah batu yang menjorok ke laut. Menurut perkiraan, kastel itu
               dibangun oleh Llywelyn yang Agung pada abad ke-13. Sekitar 900
@@ -170,7 +160,7 @@
               gayanya sendiri telah menjadi tujuan wisata populer selama
               bulan-bulan musim panas.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Berjalan kaki singkat dari kastel, Anda dapat menikmati es krim
               terbaik dunia di Cadwalader, yang bahan rahasianya dikabarkan
               berasal dari rumput laut lokal. Klaim lain mengenai ketenarannya
@@ -193,24 +183,22 @@
         </div>
 
         <!-- awal blok amerika -->
-        <div class="two-column">
-          <h2 class="two-column__title two-column__amerika-title">
+        <div class="card">
+          <h2 class="card__title card__amerika-title">
             Berea, Amerika Serikat
           </h2>
-          <div
-            class="two-column__artist-author two-column__artist-author-amerika"
-          >
-            <p class="two-column__artist two-column__artist-amerika">Artist</p>
-            <p class="two-column__author">Travis Turner, penulis dan editor</p>
+          <div class="card__artist-author">
+            <p class="card__artist">Artist</p>
+            <p class="card__author">Travis Turner, penulis dan editor</p>
           </div>
           <img
             src="./images/__amerika.png"
             alt="Berea, Amerika Serikat"
-            class="two-column__image"
+            class="card__image"
           />
 
-          <div class="two-column__information">
-            <p class="two-column__description">
+          <div class="card__information">
+            <p class="card__description">
               Reruntuhan abad pertengahan Kastel Criccieth menghadap ke kota di
               bawah batu yang menjorok ke laut. Menurut perkiraan, kastel itu
               dibangun oleh Llywelyn yang Agung pada abad ke-13. Sekitar 900
@@ -218,7 +206,7 @@
               gayanya sendiri telah menjadi tujuan wisata populer selama
               bulan-bulan musim panas.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Berjalan kaki singkat dari kastel, Anda dapat menikmati es krim
               terbaik dunia di Cadwalader, yang bahan rahasianya dikabarkan
               berasal dari rumput laut lokal. Klaim lain mengenai ketenarannya
@@ -242,26 +230,26 @@
         </div>
 
         <!-- awal blok burundi -->
-        <div class="two-column">
-          <h2 class="two-column__title">Muramvya, Burundi</h2>
-          <div class="two-column__artist-author">
-            <p class="two-column__artist">Artist</p>
-            <p class="two-column__author">Grevisse Kenguruka, editor teknis</p>
+        <div class="card">
+          <h2 class="card__title">Muramvya, Burundi</h2>
+          <div class="card__artist-author">
+            <p class="card__artist">Artist</p>
+            <p class="card__author">Grevisse Kenguruka, editor teknis</p>
           </div>
           <img
             src="./images/__burundi.png"
             alt="Muramvya, Burundi"
-            class="two-column__image"
+            class="card__image"
           />
-          <div class="two-column__information">
-            <p class="two-column__description">
+          <div class="card__information">
+            <p class="card__description">
               Muramvya adalah salah satu dari 18 provinsi Burundi. Di era
               kerajaan, Muramvya adalah ibu kota kerajaan dan pada tahun 2007,
               karena lanskap budaya dan alamnya, Muramvya ditambahkan ke Daftar
               Tentatif Warisan Dunia UNESCO. Kota ini berada di pusat Burundi,
               di antara ibu kota politik dan ekonomi negara Burundi.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Cuaca sedikit dingin di malam hari, tetapi pada siang hari, Anda
               akan berpikir Anda berada di surga. Pada ketinggian 2.665 meter
               (8.743 kaki) di atas permukaan laut, Gunung Teza adalah salah satu
@@ -270,7 +258,7 @@
               terbesar di negara ini, yang menjadi sumber ekspor Burundi
               terbesar.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Taman Nasional Kibira, salah satu suaka margasatwa kera terbesar,
               terletak di empat provinsi, termasuk Muramvya. Taman Nasional ini
               terletak di puncak pegunungan yang indah di Congo-Nile Divide,
@@ -292,21 +280,19 @@
         </div>
 
         <!-- awal blok Makassar -->
-        <div class="two-column">
-          <h2 class="two-column__title">Makassar, Indonesia</h2>
-          <div class="two-column__artist-author">
-            <p class="two-column__artist">Artist</p>
-            <p class="two-column__author">
-              Khairil Amin, penulis dan web developer
-            </p>
+        <div class="card">
+          <h2 class="card__title">Makassar, Indonesia</h2>
+          <div class="card__artist-author">
+            <p class="card__artist">Artist</p>
+            <p class="card__author">Khairil Amin, penulis dan web developer</p>
           </div>
           <img
             src="./images/makassar.png"
             alt="Makassar, Indonesia"
-            class="two-column__image two-column__image-makassar"
+            class="card__image"
           />
-          <div class="two-column__information">
-            <p class="two-column__description">
+          <div class="card__information">
+            <p class="card__description">
               Makassar adalah pusat ekonomi, budaya, dan transportasi yang
               penting di wilayah Timur Indonesia,memiliki sejarah panjang
               sebagai pusat perdagangan dan pelabuhan laut, yang bermula pada
@@ -315,7 +301,7 @@
               yang modern, dengan pertumbuhan ekonomi yang pesat dan berbagai
               infrastruktur yang berkembang.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Salah satu daya tarik utama Makassar adalah pantai-pantai yang
               indah, seperti Pantai Losari yang terkenal. Pantai ini adalah
               tempat populer bagi warga lokal dan wisatawan untuk menikmati
@@ -324,7 +310,7 @@
               Rotterdam, sebuah benteng Belanda yang berdiri megah di tepi
               pantai dan menjadi saksi bisu perjalanan sejarah Makassar.
             </p>
-            <p class="two-column__description">
+            <p class="card__description">
               Beragam tradisi, tarian, dan kuliner yang kaya terdapat di
               Makassar. Salah satu budaya yang terkenal adalah tarian
               Mappadendang, yang merupakan tarian perang tradisional yang
@@ -347,15 +333,13 @@
       </section>
 
       <div class="cover">
-        <div class="cover__overlay">
-          <h2 class="cover__title">Kunjungi kami</h2>
-          <div class="cover__subtitle-container">
-            <p class="cover__subtitle">Sepanjang tahun</p>
-            <p class="cover__subtitle">Galeri Seni Practicum</p>
-            <p class="cover__subtitle">404, Jalan Tim Berners-Lee</p>
-          </div>
-          <a href="#" class="cover__beli-tiket">Beli tiket</a>
+        <h2 class="cover__title">Kunjungi kami</h2>
+        <div class="cover__subtitle-container">
+          <p class="cover__subtitle">Sepanjang tahun</p>
+          <p class="cover__subtitle">Galeri Seni Practicum</p>
+          <p class="cover__subtitle">404, Jalan Tim Berners-Lee</p>
         </div>
+        <a href="#" class="cover__buy-ticket">Beli tiket</a>
 
         <img
           src="./images/background-cover.png"
@@ -363,10 +347,9 @@
           class="cover__image"
         />
       </div>
-
-      <div class="footer">
-        <p class="footer__creator">&copy; 2021. Khairil Amin</p>
-      </div>
-    </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__creator">&copy; 2021. Khairil Amin</p>
+    </footer>
   </body>
 </html>
