@@ -1,13 +1,17 @@
 /* blok cover */
 .cover {
-  /* width: 1184px; */
   height: 740px;
-  position: relative;
+  background-image: url(../images/background-cover.png);
+  background-position: center;
   margin: 0 auto;
+  background-size: cover;
 }
-
+.cover__container:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: 0.4s ease;
+  height: 100%;
+}
 .cover__title {
-  position: relative;
   max-width: 656px;
   display: flex;
   justify-content: center;
@@ -19,23 +23,15 @@
   padding-top: 243px;
   margin-right: auto;
   margin-left: auto;
-  z-index: 10;
 }
-.cover__subtitle-container {
-  width: 280px;
-  font-size: 18px;
-  line-height: 122.222%;
-  margin: 0 auto;
-}
+
 .cover__subtitle {
   position: relative;
   display: flex;
   justify-content: center;
   margin: 0;
-  z-index: 9;
 }
 .cover__buy-ticket {
-  position: relative;
   display: flex;
   justify-content: center;
   width: 97px;
@@ -48,18 +44,6 @@
   font-size: 18px;
   color: #fff;
   text-decoration: none;
-}
-
-.cover__image {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
-.cover__image:hover {
-  transition: opacity 0.3s ease-in-out;
-}
-.cover:hover .cover__image {
-  opacity: 0.3;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {

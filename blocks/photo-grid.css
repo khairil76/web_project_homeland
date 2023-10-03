@@ -2,7 +2,7 @@
 .photo-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
   margin: auto;
   gap: 16px;

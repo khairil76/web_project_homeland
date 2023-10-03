@@ -1,12 +1,10 @@
 /* intro */
 .intro {
+  max-width: 883px;
   width: 100%;
-  display: block;
-  align-items: baseline;
-  margin-left: 148px;
+  margin: 92px 148px 66px;
 }
 .intro__title {
-  width: 883px;
   min-height: 116px;
   margin: 92px 0 40px;
   font-size: 54px;
@@ -15,7 +13,6 @@
   line-height: 107.407%;
 }
 .intro__paragraph {
-  width: 758px;
   margin: 0;
   font-size: 24px;
 }
@@ -23,12 +20,10 @@
   display: flex;
   justify-content: end;
   font-size: 24px;
-  width: 758px;
   margin-right: 0;
 }
 .intro__description {
-  width: 720px;
-  height: 208px;
+  min-height: 208px;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

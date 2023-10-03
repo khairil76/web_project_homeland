@@ -1,6 +1,5 @@
 .places {
-  width: 987px;
-  margin: 92px auto 0;
+  margin: 92px 148px;
 }
 
 .card {
@@ -20,7 +19,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: 76px;
-  width: 460px;
+  max-width: 460px;
 }
 .card__artist-author {
   grid-area: artist-author;
@@ -51,7 +50,7 @@
 
 .card__image {
   grid-area: image;
-  width: 460px;
+  max-width: 460px;
   height: 460px;
   margin: 26px 0 48px;
 }
@@ -61,9 +60,10 @@
 }
 
 .card__description {
+  width: 100%;
   margin-top: 12px;
   font-family: Inter;
-  font-size: 16.5px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 163%;
@@ -99,7 +99,6 @@
   .card__title {
     font-size: 42px;
     line-height: 109.524%;
-    width: 340px;
   }
   .card__image {
     width: 340px;
@@ -122,12 +121,15 @@
   .card__title {
     width: 288px;
     height: 35px;
-    margin: 0 auto 30px 16px;
+    margin: 0 auto 30px 0;
     font-size: 32px;
     line-height: 109.375%;
   }
   .card__artist-author {
     margin: 0 16px;
+  }
+  .card__artist {
+    margin: 0 18px;
   }
   .card__image {
     width: 100%;
@@ -143,7 +145,10 @@
   .card__paragraph:first-child {
     margin-top: 0;
   }
-  .card__buy-as-nft {
+  .button {
+    margin: 0 16px;
+  }
+  .button__nft {
     width: 288px;
     padding: 13px 12px;
     display: block;
