@@ -1,18 +1,20 @@
 /* blok cover */
 .cover {
-  height: 740px;
   background-image: url(../images/background-cover.png);
   background-position: center;
   margin: 0 auto;
   background-size: cover;
 }
+.cover__container {
+  height: 740px;
+  width: 100%;
+}
 .cover__container:hover {
   background-color: rgba(42, 44, 47, 0.8);
   transition: 0.4s ease;
-  height: 100%;
 }
 .cover__title {
-  max-width: 656px;
+  /* max-width: 656px; */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -34,7 +36,7 @@
 .cover__buy-ticket {
   display: flex;
   justify-content: center;
-  width: 97px;
+  max-width: 97px;
   height: 22px;
   z-index: 5;
   margin: 32px auto 243px;
@@ -50,15 +52,30 @@
   .cover {
     margin: 0 auto;
   }
+  .cover__container {
+    width: 100%;
+    height: 746px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__container {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .cover {
     margin: 0 auto;
   }
+  .cover__container {
+    height: 254px;
+  }
   .cover__title {
     font-size: 32px;
     line-height: 109.37%;
+    margin: 0;
+    padding: 46px 0 0;
   }
   .cover__subtitle-container {
     font-size: 14px;
