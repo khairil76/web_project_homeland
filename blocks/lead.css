@@ -34,7 +34,6 @@
     padding: 0 24px;
   }
   .lead__image {
-    /* max-width: 768px; */
     width: 100%;
   }
 }
@@ -59,7 +58,6 @@
     padding: 0 16px;
   }
   .lead__image {
-    /* max-width: 320px; */
     width: 100%;
     margin-top: 32px;
   }

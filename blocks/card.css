@@ -69,25 +69,7 @@
   margin-top: 26px;
 }
 
-.button__nft {
-  grid-area: nft;
-  margin-bottom: 80px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: inter;
-  line-height: normal;
-  padding: 13px 20px;
-  border-radius: 4px;
-  background: #0278fe;
-  text-decoration: none;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .places {
-    margin: 88px auto 0;
-    padding: 0 24px;
-  }
   .card {
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 28px;
@@ -97,7 +79,7 @@
     line-height: 109.524%;
   }
   .card__image {
-    width: 340px;
+    max-width: 340px;
     height: 340px;
   }
   .card__description {
@@ -106,18 +88,14 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .places {
-    margin: 0;
-    padding-top: 62px;
-  }
   .card {
     display: block;
     margin-bottom: 40px;
   }
   .card__title {
-    width: 288px;
+    max-width: 288px;
     height: 35px;
-    margin: 0 auto 30px 0;
+    margin: 0 16px 30px;
     font-size: 32px;
     line-height: 109.375%;
   }
@@ -125,7 +103,7 @@
     margin: 0 16px;
   }
   .card__artist {
-    margin: 0 18px;
+    margin: 0 16px;
   }
   .card__image {
     width: 100%;
@@ -140,15 +118,5 @@
   }
   .card__paragraph:first-child {
     margin-top: 0;
-  }
-  .button {
-    margin: 0 16px;
-  }
-  .button__nft {
-    width: 288px;
-    padding: 13px 12px;
-    display: block;
-    text-align: center;
-    margin: auto;
   }
 }
